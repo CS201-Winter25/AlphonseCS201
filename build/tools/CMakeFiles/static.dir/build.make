@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main
+CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build
+CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build
 
 # Include any dependencies generated for this target.
 include tools/CMakeFiles/static.dir/depend.make
@@ -73,32 +73,32 @@ tools/CMakeFiles/static.dir/codegen:
 .PHONY : tools/CMakeFiles/static.dir/codegen
 
 tools/CMakeFiles/static.dir/StaticMain.cpp.o: tools/CMakeFiles/static.dir/flags.make
-tools/CMakeFiles/static.dir/StaticMain.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/tools/StaticMain.cpp
+tools/CMakeFiles/static.dir/StaticMain.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/tools/StaticMain.cpp
 tools/CMakeFiles/static.dir/StaticMain.cpp.o: tools/CMakeFiles/static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/CMakeFiles/static.dir/StaticMain.cpp.o"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/CMakeFiles/static.dir/StaticMain.cpp.o -MF CMakeFiles/static.dir/StaticMain.cpp.o.d -o CMakeFiles/static.dir/StaticMain.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/tools/StaticMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tools/CMakeFiles/static.dir/StaticMain.cpp.o"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/CMakeFiles/static.dir/StaticMain.cpp.o -MF CMakeFiles/static.dir/StaticMain.cpp.o.d -o CMakeFiles/static.dir/StaticMain.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/tools/StaticMain.cpp
 
 tools/CMakeFiles/static.dir/StaticMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/static.dir/StaticMain.cpp.i"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/tools/StaticMain.cpp > CMakeFiles/static.dir/StaticMain.cpp.i
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/tools/StaticMain.cpp > CMakeFiles/static.dir/StaticMain.cpp.i
 
 tools/CMakeFiles/static.dir/StaticMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/static.dir/StaticMain.cpp.s"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/tools/StaticMain.cpp -o CMakeFiles/static.dir/StaticMain.cpp.s
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/tools/StaticMain.cpp -o CMakeFiles/static.dir/StaticMain.cpp.s
 
 tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o: tools/CMakeFiles/static.dir/flags.make
-tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/StaticCallCounter.cpp
+tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/StaticCallCounter.cpp
 tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o: tools/CMakeFiles/static.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o -MF CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o.d -o CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/StaticCallCounter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o -MF CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o.d -o CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/StaticCallCounter.cpp
 
 tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.i"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/StaticCallCounter.cpp > CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.i
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/StaticCallCounter.cpp > CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.i
 
 tools/CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.s"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/StaticCallCounter.cpp -o CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.s
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/StaticCallCounter.cpp -o CMakeFiles/static.dir/__/lib/StaticCallCounter.cpp.s
 
 # Object files for target static
 static_OBJECTS = \
@@ -160,18 +160,18 @@ bin/static: /opt/homebrew/lib/libz3.dylib
 bin/static: /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk/usr/lib/libz.tbd
 bin/static: /opt/homebrew/lib/libzstd.dylib
 bin/static: tools/CMakeFiles/static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/static"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/static"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tools/CMakeFiles/static.dir/build: bin/static
 .PHONY : tools/CMakeFiles/static.dir/build
 
 tools/CMakeFiles/static.dir/clean:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools && $(CMAKE_COMMAND) -P CMakeFiles/static.dir/cmake_clean.cmake
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools && $(CMAKE_COMMAND) -P CMakeFiles/static.dir/cmake_clean.cmake
 .PHONY : tools/CMakeFiles/static.dir/clean
 
 tools/CMakeFiles/static.dir/depend:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/tools /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/tools/CMakeFiles/static.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/tools /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/tools/CMakeFiles/static.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : tools/CMakeFiles/static.dir/depend
 

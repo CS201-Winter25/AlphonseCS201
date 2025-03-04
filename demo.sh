@@ -28,7 +28,7 @@ make
 cd ..
 
 # 遍历 our_example/ 和 test/ 目录下的所有 .c 文件
-for file in my_example/*.c; do
+for file in phase3TestCases/*.c; do
     if [ -f "$file" ]; then
         echo "Processing $file..."
         bc_file="${file%.c}.bc"
@@ -37,6 +37,6 @@ for file in my_example/*.c; do
         clang -S -fno-discard-value-names -emit-llvm "$file" -o "${file%.c}.ll"
 
         # 运行 LVN Pass
-        opt -load-pass-plugin ./build/lib/libValueNumbering.dylib -passes=value-numbering -disable-output "${file%.c}.ll"
+        opt -load-pass-plugin ./build/lib/libLivenessAnalysis.dylib -passes=liveness_analysis -disable-output "${file%.c}.ll"
     fi
 done

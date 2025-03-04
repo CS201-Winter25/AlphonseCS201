@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main
+CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build
+CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/ValueNumbering.dir/depend.make
@@ -73,18 +73,18 @@ lib/CMakeFiles/ValueNumbering.dir/codegen:
 .PHONY : lib/CMakeFiles/ValueNumbering.dir/codegen
 
 lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o: lib/CMakeFiles/ValueNumbering.dir/flags.make
-lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/ValueNumbering.cpp
+lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/ValueNumbering.cpp
 lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o: lib/CMakeFiles/ValueNumbering.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o -MF CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o.d -o CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/ValueNumbering.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o -MF CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o.d -o CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/ValueNumbering.cpp
 
 lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.i"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/ValueNumbering.cpp > CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.i
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/ValueNumbering.cpp > CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.i
 
 lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.s"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/ValueNumbering.cpp -o CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.s
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/ValueNumbering.cpp -o CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.s
 
 # Object files for target ValueNumbering
 ValueNumbering_OBJECTS = \
@@ -96,18 +96,18 @@ ValueNumbering_EXTERNAL_OBJECTS =
 lib/libValueNumbering.dylib: lib/CMakeFiles/ValueNumbering.dir/ValueNumbering.cpp.o
 lib/libValueNumbering.dylib: lib/CMakeFiles/ValueNumbering.dir/build.make
 lib/libValueNumbering.dylib: lib/CMakeFiles/ValueNumbering.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libValueNumbering.dylib"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ValueNumbering.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libValueNumbering.dylib"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ValueNumbering.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/ValueNumbering.dir/build: lib/libValueNumbering.dylib
 .PHONY : lib/CMakeFiles/ValueNumbering.dir/build
 
 lib/CMakeFiles/ValueNumbering.dir/clean:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/ValueNumbering.dir/cmake_clean.cmake
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/ValueNumbering.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/ValueNumbering.dir/clean
 
 lib/CMakeFiles/ValueNumbering.dir/depend:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib/CMakeFiles/ValueNumbering.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib/CMakeFiles/ValueNumbering.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lib/CMakeFiles/ValueNumbering.dir/depend
 

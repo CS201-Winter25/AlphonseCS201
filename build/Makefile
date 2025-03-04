@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main
+CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build
+CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -351,6 +351,19 @@ ValueNumbering/fast:
 .PHONY : ValueNumbering/fast
 
 #=============================================================================
+# Target rules for targets named LivenessAnalysis
+
+# Build rule for target.
+LivenessAnalysis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LivenessAnalysis
+.PHONY : LivenessAnalysis
+
+# fast build rule for target.
+LivenessAnalysis/fast:
+	$(MAKE) $(MAKESILENT) -f lib/CMakeFiles/LivenessAnalysis.dir/build.make lib/CMakeFiles/LivenessAnalysis.dir/build
+.PHONY : LivenessAnalysis/fast
+
+#=============================================================================
 # Target rules for targets named static
 
 # Build rule for target.
@@ -396,6 +409,7 @@ help:
 	@echo "... FindFCmpEq"
 	@echo "... HelloWorld"
 	@echo "... InjectFuncCall"
+	@echo "... LivenessAnalysis"
 	@echo "... MBAAdd"
 	@echo "... MBASub"
 	@echo "... MergeBB"

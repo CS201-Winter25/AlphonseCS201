@@ -13,6 +13,7 @@ set(LLVM_TUTOR_PLUGINS
     OpcodeCounter
     MergeBB
     ValueNumbering
+    LivenessAnalysis   # ✅ 添加 LivenessAnalysis
     )
 
 set(StaticCallCounter_SOURCES
@@ -39,6 +40,8 @@ set(MergeBB_SOURCES
   MergeBB.cpp)
 set(ValueNumbering_SOURCES
   ValueNumbering.cpp)
+set(LivenessAnalysis_SOURCES  # ✅ 添加 LivenessAnalysis_SOURCES
+  LivenessAnalysis.cpp)           # ✅ 确保 LivenessPass.cpp 存在
 
 # CONFIGURE THE PLUGIN LIBRARIES
 # ==============================

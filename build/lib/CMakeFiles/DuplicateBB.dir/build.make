@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main
+CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build
+CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/DuplicateBB.dir/depend.make
@@ -73,18 +73,18 @@ lib/CMakeFiles/DuplicateBB.dir/codegen:
 .PHONY : lib/CMakeFiles/DuplicateBB.dir/codegen
 
 lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o: lib/CMakeFiles/DuplicateBB.dir/flags.make
-lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/DuplicateBB.cpp
+lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/DuplicateBB.cpp
 lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o: lib/CMakeFiles/DuplicateBB.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o -MF CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o.d -o CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/DuplicateBB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o -MF CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o.d -o CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/DuplicateBB.cpp
 
 lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.i"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/DuplicateBB.cpp > CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.i
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/DuplicateBB.cpp > CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.i
 
 lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.s"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/DuplicateBB.cpp -o CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.s
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/DuplicateBB.cpp -o CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.s
 
 # Object files for target DuplicateBB
 DuplicateBB_OBJECTS = \
@@ -96,18 +96,18 @@ DuplicateBB_EXTERNAL_OBJECTS =
 lib/libDuplicateBB.dylib: lib/CMakeFiles/DuplicateBB.dir/DuplicateBB.cpp.o
 lib/libDuplicateBB.dylib: lib/CMakeFiles/DuplicateBB.dir/build.make
 lib/libDuplicateBB.dylib: lib/CMakeFiles/DuplicateBB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libDuplicateBB.dylib"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DuplicateBB.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libDuplicateBB.dylib"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DuplicateBB.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/DuplicateBB.dir/build: lib/libDuplicateBB.dylib
 .PHONY : lib/CMakeFiles/DuplicateBB.dir/build
 
 lib/CMakeFiles/DuplicateBB.dir/clean:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/DuplicateBB.dir/cmake_clean.cmake
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/DuplicateBB.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/DuplicateBB.dir/clean
 
 lib/CMakeFiles/DuplicateBB.dir/depend:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib/CMakeFiles/DuplicateBB.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib/CMakeFiles/DuplicateBB.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lib/CMakeFiles/DuplicateBB.dir/depend
 

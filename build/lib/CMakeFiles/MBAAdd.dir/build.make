@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main
+CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build
+CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build
 
 # Include any dependencies generated for this target.
 include lib/CMakeFiles/MBAAdd.dir/depend.make
@@ -73,18 +73,18 @@ lib/CMakeFiles/MBAAdd.dir/codegen:
 .PHONY : lib/CMakeFiles/MBAAdd.dir/codegen
 
 lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o: lib/CMakeFiles/MBAAdd.dir/flags.make
-lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/MBAAdd.cpp
+lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o: /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/MBAAdd.cpp
 lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o: lib/CMakeFiles/MBAAdd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o -MF CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o.d -o CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/MBAAdd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o -MF CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o.d -o CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o -c /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/MBAAdd.cpp
 
 lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MBAAdd.dir/MBAAdd.cpp.i"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/MBAAdd.cpp > CMakeFiles/MBAAdd.dir/MBAAdd.cpp.i
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/MBAAdd.cpp > CMakeFiles/MBAAdd.dir/MBAAdd.cpp.i
 
 lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MBAAdd.dir/MBAAdd.cpp.s"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib/MBAAdd.cpp -o CMakeFiles/MBAAdd.dir/MBAAdd.cpp.s
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib/MBAAdd.cpp -o CMakeFiles/MBAAdd.dir/MBAAdd.cpp.s
 
 # Object files for target MBAAdd
 MBAAdd_OBJECTS = \
@@ -96,18 +96,18 @@ MBAAdd_EXTERNAL_OBJECTS =
 lib/libMBAAdd.dylib: lib/CMakeFiles/MBAAdd.dir/MBAAdd.cpp.o
 lib/libMBAAdd.dylib: lib/CMakeFiles/MBAAdd.dir/build.make
 lib/libMBAAdd.dylib: lib/CMakeFiles/MBAAdd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libMBAAdd.dylib"
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MBAAdd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libMBAAdd.dylib"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MBAAdd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/CMakeFiles/MBAAdd.dir/build: lib/libMBAAdd.dylib
 .PHONY : lib/CMakeFiles/MBAAdd.dir/build
 
 lib/CMakeFiles/MBAAdd.dir/clean:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/MBAAdd.dir/cmake_clean.cmake
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib && $(CMAKE_COMMAND) -P CMakeFiles/MBAAdd.dir/cmake_clean.cmake
 .PHONY : lib/CMakeFiles/MBAAdd.dir/clean
 
 lib/CMakeFiles/MBAAdd.dir/depend:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/lib /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/lib/CMakeFiles/MBAAdd.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/lib /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/lib/CMakeFiles/MBAAdd.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : lib/CMakeFiles/MBAAdd.dir/depend
 

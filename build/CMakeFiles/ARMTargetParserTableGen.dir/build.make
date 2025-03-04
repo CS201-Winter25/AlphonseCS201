@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main
+CMAKE_SOURCE_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build
+CMAKE_BINARY_DIR = /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build
 
 # Utility rule file for ARMTargetParserTableGen.
 
@@ -81,6 +81,6 @@ CMakeFiles/ARMTargetParserTableGen.dir/clean:
 .PHONY : CMakeFiles/ARMTargetParserTableGen.dir/clean
 
 CMakeFiles/ARMTargetParserTableGen.dir/depend:
-	cd /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/llvm-tutor-main/build/CMakeFiles/ARMTargetParserTableGen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build /Users/alphonserand/Desktop/UCR/CS201/code/project3/llvm-tutor-main/build/CMakeFiles/ARMTargetParserTableGen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ARMTargetParserTableGen.dir/depend
 
